@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="0" name="com.dx.frontend.RunCukesTest" time="0.153" errors="2" skipped="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\ecilpse\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.country.format" value="KR"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\code\eclipse\${workspace_loc:\demo-ui-test}"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\autoTest\frontend-UI(1)\frontend-UI"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\ecilpse\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\code\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7239224697493106302.tmp"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="E:\ecilpse\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/ecilpse/jdk1.8.0_121/bin/../jre/bin/server;E:/ecilpse/jdk1.8.0_121/bin/../jre/bin;E:/ecilpse/jdk1.8.0_121/bin/../jre/lib/amd64;e:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\ecilpse\jdk1.8.0_121\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;E:\code\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="/E:/code/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\ecilpse\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="user.language.format" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="E:\ecilpse\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\ecilpse\jdk1.8.0_121\jre\lib\resources.jar;E:\ecilpse\jdk1.8.0_121\jre\lib\rt.jar;E:\ecilpse\jdk1.8.0_121\jre\lib\sunrsasign.jar;E:\ecilpse\jdk1.8.0_121\jre\lib\jsse.jar;E:\ecilpse\jdk1.8.0_121\jre\lib\jce.jar;E:\ecilpse\jdk1.8.0_121\jre\lib\charsets.jar;E:\ecilpse\jdk1.8.0_121\jre\lib\jfr.jar;E:\ecilpse\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\autoTest\frontend-UI(1)\frontend-UI\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="Given navigate to search page by &quot;https://www.ianzhang.cn/bing/&quot;" time="0.003"/>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="When I input &quot;Bing&quot; in search box and click search button" time="0.01">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;bLogo&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC-20120728NCPG&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir6572_805973552}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52460}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=99.0.4844.74, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5247b82d3513feb902e43891eecffd12
+*** Element info: {Using=xpath, value=//*[@id=&apos;bLogo&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;bLogo&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC-20120728NCPG&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir6572_805973552}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52460}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=99.0.4844.74, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5247b82d3513feb902e43891eecffd12
+*** Element info: {Using=xpath, value=//*[@id=&apos;bLogo&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.dx.frontend.pageObj.searchPgaeObject.logo(searchPgaeObject.java:27)
+	at com.dx.frontend.pageObj.searchPgaeObject.waitSearchPageIsDisplay(searchPgaeObject.java:58)
+	at com.dx.frontend.Step.LoginStep.i_input_in_search_box_and_click_search_button(LoginStep.java:49)
+	at ✽.When I input &quot;Bing&quot; in search box and click search button(testconnectdriver.feature:6)
+</error>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="| https://www.ianzhang.cn/bing/ | Bing |" time="0.01">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;bLogo&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC-20120728NCPG&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir6572_805973552}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52460}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=99.0.4844.74, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5247b82d3513feb902e43891eecffd12
+*** Element info: {Using=xpath, value=//*[@id=&apos;bLogo&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;bLogo&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC-20120728NCPG&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir6572_805973552}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52460}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=99.0.4844.74, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5247b82d3513feb902e43891eecffd12
+*** Element info: {Using=xpath, value=//*[@id=&apos;bLogo&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.dx.frontend.pageObj.searchPgaeObject.logo(searchPgaeObject.java:27)
+	at com.dx.frontend.pageObj.searchPgaeObject.waitSearchPageIsDisplay(searchPgaeObject.java:58)
+	at com.dx.frontend.Step.LoginStep.i_input_in_search_box_and_click_search_button(LoginStep.java:49)
+	at ✽.When I input &quot;Bing&quot; in search box and click search button(testconnectdriver.feature:6)
+</error>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="Then The search results is display" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="When I skip to the second page" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="Then Print the title and link of the result" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="When I scroll to Top and research &quot;SC&quot;" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="Then The search results is display" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="When I skip to the second page" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https://www.ianzhang.cn/bing/ | Bing |" name="Then Print the title and link of the result" time="0.02">
+    <skipped/>
+  </testcase>
+</testsuite>

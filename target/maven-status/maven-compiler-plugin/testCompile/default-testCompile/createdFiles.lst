@@ -1,0 +1,8 @@
+com\dx\frontend\pageObj\fedpUserManagePage.class
+com\dx\frontend\pageObj\searchPgaeObject.class
+com\dx\frontend\Step\LoginStep.class
+com\dx\frontend\RunCukesTest.class
+com\dx\frontend\envConfig.class
+com\dx\frontend\accountConfig.class
+com\dx\frontend\Hooks.class
+com\dx\frontend\pageObj\fedpHomePage.class
